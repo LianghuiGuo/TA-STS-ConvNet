@@ -48,7 +48,7 @@ CHB-MIT
     make preprocess
 </pre>
 the processed data should be saved in /chb01/15min_1step_18ch/
-- You can also preprocess data of all the patients through a bash :
+- You can also preprocess data of all the patients as follow :
 <pre>
     make preprocess_chb
 </pre>
@@ -60,7 +60,7 @@ the processed data should be saved in /chb01/15min_1step_18ch/
 <pre>
     make train
 </pre>
-- You can also train on all the patients through a bash :
+- You can also train on all the patients as follow :
 <pre>
     make train_chb
 </pre>
@@ -73,7 +73,7 @@ the processed data should be saved in /chb01/15min_1step_18ch/
 <pre>
     make eval
 </pre>
-- You can also eval on all the patients through a bash :
+- You can also eval on all the patients as follow :
 <pre>
     make eval_chb
 </pre>
