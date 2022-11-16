@@ -2,7 +2,6 @@
 This is the code proposed in our paper "Triple-Attention-based Spatio-Temporal-Spectral Convolutional Network for Epileptic Seizure Prediction"
 - github : https://github.com/LianghuiGuo/TA-STS-ConvNet
 - paper :  https://www.techrxiv.org/articles/preprint/Triple-Attention-based_Spatio-Temporal-Spectral_Convolutional_Network_for_Epileptic_Seizure_Prediction/20557074
-
 <!-- 分割线 -->
 ***
 
@@ -77,3 +76,7 @@ the processed data should be saved in /chb01/15min_1step_18ch/
 <pre>
     make eval_chb
 </pre>
+
+<!-- 分割线 -->
+***
+If ant possible requirement is missed, please notice me.
