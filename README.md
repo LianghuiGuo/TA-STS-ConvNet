@@ -7,10 +7,11 @@ This is the code proposed in our paper "Triple-Attention-based Spatio-Temporal-S
 
 ## How to use
 1. **Data Preparation**
+- Download CHB-MIT dataset. http://archive.physionet.org/physiobank/database/chbmit/
 - For each patient of CHB-MIT, the edf files need to be separated manually into three dirs  
     - **seizure** : which stores edf files with seizure
     - **seizure-supplement** : which stores files as supplement of preictal data. e.g. for 6.edf, the preictal length is shorter than 15min, then the previous edf file is used as a supplement.
-    - **unseizure** : which stores files without seizures
+    - **unseizure** : which stores files without seizures. (at least 2 hours away from any seizure onset)
 - Edf files for chb01 are provided in /data/CHB-MIT/chb01. Note that there should be more edf files in unseizure for chb01 (here chb01_07.edf ~ chb01_12.edf are provided as example).  
 CHB-MIT  
 └─chb01  
